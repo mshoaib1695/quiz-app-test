@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.progress-bar {
+  position: relative;
+  height: 20px;
+  width:100%;
+  border-radius: 5px;
+  border: 1px solid #333;
+}
+.top-progress-bar {
+  position: fixed;
+  height: 20px;
+  width: 100%;
+}
+.filler {
+  height: 100%;
+  border-radius: inherit;
+  transition: width .2s ease-in;
+}
+.top-progress-bar-filler {
+  background: #A9AAA9;
+  height: 50%;
+  transition: width .2s ease-in;
+}
+.progress-bar-titles{
+  display: flex;
+  justify-content: space-between;
+  width:500px;
+}
+.progress-bar-container {
+  padding: 0 5% 0 5%;
+}
+p.question-element {
+  font-weight: 500;
+  font-size: 24px;
+  width: 600px;
+
+}
+p.question-heading {
+  font-weight: 700;
+  font-size: 28px;
+}
+.rating {
+  font-family:star-rating;
+}
+.answers-container div {
+  display: flex;
+  justify-content: center;
+}
+.answers-container div p {
+  padding: 10px;
+  background: #E5E6E5;
+  margin: 10px;
+  width: 300px;
+}
+.answers-container div p:hover{
+  cursor: pointer;
+}
+.next-button{
+  padding: 10px;
+  background: #E5E6E5;
+  margin: 10px;
+  width: 300px;
+}
+.logoImage{
+  margin-bottom: -115px; 
+  margin-top: -50px;
+  display: flex;
+}
+.logoImage img{
+  height: 300px;
+  margin: 0 auto;
+}
