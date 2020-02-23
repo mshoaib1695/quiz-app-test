@@ -6,7 +6,7 @@ function ProgressBar(props) {
             <div className="progress-bar-container">
                 <div className="progress-bar-titles">
                     <p>Score {parseInt(props.percentage)}%</p>
-                    <p>Score {props.max}%</p>
+                    <p>Score {parseInt(props.max)}%</p>
                 </div>
                 <div className="progress-bar">
                     <div className="filler" 
